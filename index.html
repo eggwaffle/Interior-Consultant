@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+    <link rel="icon" href="devchallenges.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+    <title>Interior Consultant</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <p class="logo">this interior</p>
+      <nav>
+        <button id="open" onclick="openmenu()">
+          <span class="material-icons">
+            menu
+          </span>
+        </button>
+        <button id="close" onclick="closemenu()">
+          <span class="material-icons">
+            close
+          </span>
+        </button>
+        <ul id="menu">
+          <li class="focus">Home</li>
+          <li>Collection</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <Main>
+      <article id="left">
+        <h1 class="main-title">Modern interior</h1>
+        <p>
+          A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.
+        </p>
+        <button>
+          <p>Read more</p>
+          <span class="material-icons">trending_flat</span>
+        </button>
+      </article>
+      <article id="right">
+        <img class="photo" src="photo1.png" alt="Interior" />
+        <div class="card">
+          <div class="profile">
+            <div class="profile-pic">
+              <img src="photo2.png" alt="Aliza Webber" />
+            </div>
+            <div class="profile-details">
+              <h3>Aliza Webber</h3>
+              <p>Interior designer</p>
+            </div>
+          </div>
+          <h1>Designed in 2020 by Aliza Webber</h1>
+        </div>
+      </article>
+    </Main>
+    <footer>
+      <p>created by <b><u>eggwaffle</u></b> - devChallenges.io</p>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
